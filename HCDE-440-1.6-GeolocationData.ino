@@ -11,8 +11,8 @@ location (city name, longtitude, latitude and more). We then use the city's name
 
 const char* ssid = "University of Washington"; //name of your WiFi network
 const char* pass = ""; //password to the WiFi network
-const char* key = "c7ad5a6b84e00cc80bc71c71ed7d6a23"; // API key for ipstack (https://ipstack.com)
-const char* weatherKey = "7f17236e9a1ad28334e8abcaafa9139c"; // API key for openweathermap (https://openweathermap.org)
+const char* key = ""; // API key for ipstack (https://ipstack.com)
+const char* weatherKey = ""; // API key for openweathermap (https://openweathermap.org)
 String ipAddress; //creates a new data type definition for storing the ip address
 
 // Here we create a new data type definition, a box to hold other data types for each name:value pair coming in from the service, 
